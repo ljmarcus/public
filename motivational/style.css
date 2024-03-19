@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    align-content: center;
+}
+
+p {
+    color: white;
+    margin: 0
+}
+
+#mainImage {
+    width: 549px;
+    height: 399px;
+    margin: auto;
+    border: 3px solid #fc3f0f;
+    padding: 0px, 0px;
+    margin: 0px, 0px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #fc3f0f;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    line-height: 0%;
+    font-family: Baskervville;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-family: Baskervville;
+}
+
+.baskervville-regular {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
