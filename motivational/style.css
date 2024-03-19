@@ -8,6 +8,12 @@ p {
     margin: 0
 }
 
+hr {
+    width: 549px;
+    color: #fc3f0f;
+    margin: auto;
+}
+
 #mainImage {
     width: 549px;
     height: 399px;
