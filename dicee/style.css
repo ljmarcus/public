@@ -3,13 +3,36 @@ body {
     margin-top: 20px;
 }
 
-p span {
-    margin: 0px;
+p {
+    margin-bottom: 20px;
+    font-family: "Indie Flower";
+    font-size: larger;
 }
+
+.galada-regular {
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.p1 {
+    float: left;
+}
+
+.p2 {
+    float: right;
+}
+  
 
 h1 {
     font-size: 5rem;
-    font-family: sans-serif;
+    font-family: "Galada";
     text-shadow: 2px 2px #000000;
     color: #45C398;
     text-align: center;
@@ -41,18 +64,14 @@ img {
     margin: 0px;
     width: 160px;
     height: 160px;
+    border: 0px;
 }
 
-.p1 {
-    float: left;
-}
 
-.p2 {
-    float: right;
-}
 
 footer {
     color: white;
     text-align: center;
+    font-size: smaller;
     clear: both;
 }
