@@ -2,45 +2,10 @@
 
 <head>
     <title>My Resume</title>
+    <link rel="stylesheet" href="./style.css" />
 
     <style>
 
-        img{
-            border-radius: 50%;
-        }
-
-        .skills {
-            display: inline-flex;
-            margin-left: 15px;
-        }
-
-        .skills span {
-            padding: 10px;
-        }
-
-        .topsecret {
-            display: inline-flex;
-            justify-content: center;
-            align-content: center;
-            visibility: hidden;
-            font-size: 0;
-            z-index: 10;
-        }
-
-        @media ((min-width: 751px) and (max-width: 756px)) or ((min-width: 1230px) and (max-width: 1235px)) {
-            .topsecret {
-                font-size: 5rem;
-                font-family: Verdana, Geneva, Tahoma, sans-serif ;
-                letter-spacing: -20px;
-                color: #df0000;
-                text-shadow: 2px 2px #006699;
-                visibility: visible;
-                position: fixed;
-                top: 150px;
-                left: 150px;
-                
-            }
-        }
     </style>
 </head>
 
@@ -56,18 +21,18 @@ Creative nerd looking to enter the tech field as a front-end designer.
 <hr />
 
 <h2>Skills</h2>
-    <div class="skills">
-        <span>
+    <div>
+        <span class="skills">
                 <li>Customer Service</li>
                 <li>Copywriting</li>
                 <li>Editing</li>
         </span>
-        <span> 
+        <span class="skills"> 
                 <li>Graphic Design</li>
                 <li>Google Workspace</li>
                 <li>Social Media</li>
         </span>
-        <span>
+        <span class="skills">
                 <li>HTML5</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
