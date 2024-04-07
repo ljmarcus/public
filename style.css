@@ -1,0 +1,38 @@
+body {
+    font-size: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.skills {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.topsecret {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    visibility: hidden;
+    font-size: 0;
+    z-index: 10;
+}
+
+@media ((min-width: 751px) and (max-width: 756px)) or ((min-width: 1080px) and (max-width: 1085px)) {
+    .topsecret {
+        font-size: 5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif ;
+        letter-spacing: -20px;
+        color: #df0000;
+        text-shadow: 2px 2px #006699;
+        visibility: visible;
+        position: fixed;
+        top: 150px;
+        left: 150px;
+        right: auto;
+        
+    }
+}
