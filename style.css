@@ -37,3 +37,11 @@ img {
         
     }
 }
+
+@media (min-width: 319px) and (max-width: 480px) {
+    .skills {
+        display: inline-block;
+        margin-left: 25px;
+        font-size: larger;
+    }
+}
