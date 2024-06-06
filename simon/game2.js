@@ -90,6 +90,7 @@ function checkAnswer(currentLevel) {
             console.log("woot");
             currentLevel++;
             clearUserPattern();
+            nextSequence();
         }
     }
 
